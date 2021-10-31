@@ -98,4 +98,15 @@ h6 {
   background-color: $grey;
   text-align: center;
   padding: 1rem 0;
+  width: 100%;
+  h2,
+  p {
+    max-width: 75%;
+  }
+  h2 {
+    margin: 0 auto 1rem auto;
+  }
+  p {
+    margin: 0 auto 2rem auto;
+  }
 }
