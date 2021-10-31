@@ -58,7 +58,7 @@ h6 {
 .main__text-container {
   background-color: #f3f3f3;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0 3rem 0;
   width: 100%;
 }
 
@@ -73,5 +73,20 @@ h6 {
 
 .main__text-container p {
   margin: 0 auto 2rem auto;
+}
+
+.main__text-container .btn {
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), color-stop(85%, #e01cd8), to(#ff79da));
+  background: linear-gradient(0deg, #9356dc 0%, #e01cd8 85%, #ff79da 100%);
+  padding: 1rem;
+  margin: 0 0 2rem 0;
+  border-radius: 2rem;
+  color: #fff;
+}
+
+.fa-heart::before {
+  background: -webkit-linear-gradient(#e72c83, #a742c6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*# sourceMappingURL=style.css.map */

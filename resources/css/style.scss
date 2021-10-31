@@ -23,13 +23,29 @@ $dark-grey: #d3d3d3;
 
 // MIXINS
 // Gradient
-@mixin gradiant {
+@mixin gradient {
   background: linear-gradient(
     0deg,
     rgba(147, 86, 220, 1) 0%,
     rgba(224, 28, 216, 1) 85%,
     rgba(255, 121, 218, 1) 100%
   );
+}
+
+@mixin icon-gradient--outline {
+  background: -moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+  background: -webkit-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+  background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin icon-gradient--fill {
+  background: -webkit-linear-gradient(#e72c83, #a742c6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 ///////////////////////////////////////////////////////
@@ -97,7 +113,7 @@ h6 {
 .main__text-container {
   background-color: $grey;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0 3rem 0;
   width: 100%;
   h2,
   p {
@@ -109,4 +125,18 @@ h6 {
   p {
     margin: 0 auto 2rem auto;
   }
+  .btn {
+    @include gradient;
+    padding: 1rem;
+    margin: 0 0 2rem 0;
+    border-radius: 2rem;
+    color: #fff;
+  }
+}
+
+// Nav
+
+.fa-heart::before {
+  @include icon-gradient--fill;
+  // font-size: 40px;
 }
