@@ -29,12 +29,17 @@ h6 {
   font-family: "Shrikhand", serif;
 }
 
-header {
+.header {
   width: 100%;
   text-align: center;
 }
 
-header__img-container img {
-  width: 10px;
+.header__img-container > img {
+  width: 10rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  color: #ff79da;
 }
 /*# sourceMappingURL=style.css.map */

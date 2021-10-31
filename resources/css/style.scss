@@ -3,11 +3,28 @@
 // Purple
 $purple: #9356dc;
 
+// Light-purple
+$light-purple: #f1a0fc;
+
 // Pink
 $pink: #ff79da;
 
 // Mint
-$mint: #ff79da;
+$mint: #99e2d0;
+
+// Dark-mint
+$dark-mint: #1ea784;
+
+// MIXINS
+// Gradient
+@mixin gradiant {
+  background: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 1) 0%,
+    rgba(224, 28, 216, 1) 85%,
+    rgba(255, 121, 218, 1) 100%
+  );
+}
 
 ///////////////////////////////////////////////////////
 // RESETS
@@ -47,14 +64,18 @@ h6 {
 // INDEX.HTML__MOBILE
 
 // MOBILE
-header {
+// Header
+.header {
   width: 100%;
   text-align: center;
-  &__img-container img {
-    width: 10%;
-    color: blue;
+  &__img-container > img {
+    width: 10rem;
+    margin: 1rem 0;
   }
 }
+
+// Main
+// Main__map
 
 h2 {
   color: $pink;
