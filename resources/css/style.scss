@@ -16,10 +16,10 @@ $mint: #99e2d0;
 $dark-mint: #1ea784;
 
 // Grey
-$grey: #ececec;
+$grey: #f3f3f3;
 
 // Dark-grey
-$dark-grey: #bebebe;
+$dark-grey: #d3d3d3;
 
 // MIXINS
 // Gradient
@@ -75,7 +75,7 @@ h6 {
   width: 100%;
   text-align: center;
   &__img-container > img {
-    width: 10rem;
+    width: 12rem;
     margin: 1rem 0;
   }
 }
@@ -83,8 +83,18 @@ h6 {
 // Main
 // Main__map
 .main__map-container {
+  background-color: $dark-grey;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
-h2 {
-  color: $pink;
+// Main__text
+.main__text-container {
+  background-color: $grey;
+  text-align: center;
+  padding: 1rem 0;
 }
