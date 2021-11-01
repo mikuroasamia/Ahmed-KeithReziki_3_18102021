@@ -1,33 +1,7 @@
 ///////////////////////////////////////////////////////
 // Imports
 @import "./abstracts/variables";
-
-// MIXINS
-// Gradient
-@mixin gradient {
-  background: linear-gradient(
-    0deg,
-    rgba(147, 86, 220, 1) 0%,
-    rgba(224, 28, 216, 1) 85%,
-    rgba(255, 121, 218, 1) 100%
-  );
-}
-
-@mixin icon-gradient--outline {
-  background: -moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
-  background: -webkit-linear-gradient(top, #e72c83 0%, #a742c6 100%);
-  background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-@mixin icon-gradient--fill {
-  background: -webkit-linear-gradient(#e72c83, #a742c6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+@import "./abstracts/mixins";
 
 ///////////////////////////////////////////////////////
 // RESETS
