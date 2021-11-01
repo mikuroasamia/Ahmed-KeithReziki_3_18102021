@@ -1,25 +1,6 @@
 ///////////////////////////////////////////////////////
-// COLOR VARIABLES
-// Purple
-$purple: #9356dc;
-
-// Light-purple
-$light-purple: #f1a0fc;
-
-// Pink
-$pink: #ff79da;
-
-// Mint
-$mint: #99e2d0;
-
-// Dark-mint
-$dark-mint: #1ea784;
-
-// Grey
-$grey: #f3f3f3;
-
-// Dark-grey
-$dark-grey: #d3d3d3;
+// Imports
+@import "./abstracts/variables";
 
 // MIXINS
 // Gradient
