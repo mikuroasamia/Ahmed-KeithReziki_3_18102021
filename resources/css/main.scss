@@ -4,41 +4,6 @@
 @import "./abstracts/mixins";
 
 ///////////////////////////////////////////////////////
-// RESETS
-// All
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-img {
-  width: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Shrikhand", serif;
-}
-
-///////////////////////////////////////////////////////
 // INDEX.HTML__MOBILE
 
 // MOBILE
