@@ -2,20 +2,12 @@
 // Imports
 @import "./abstracts/variables";
 @import "./abstracts/mixins";
+@import "./base/reset";
 
 ///////////////////////////////////////////////////////
 // INDEX.HTML__MOBILE
 
 // MOBILE
-// Header
-.header {
-  width: 100%;
-  text-align: center;
-  &__img-container > img {
-    width: 12rem;
-    margin: 1rem 0;
-  }
-}
 
 // Main
 // Main__map
