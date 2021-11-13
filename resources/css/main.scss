@@ -67,7 +67,7 @@
     ul {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: flex-start;
       gap: 1rem;
       background-color: $grey;
       width: 60%;
@@ -76,6 +76,7 @@
       border-radius: 2rem;
       li {
         padding-left: 0;
+        // color: blue;
       }
     }
   }
