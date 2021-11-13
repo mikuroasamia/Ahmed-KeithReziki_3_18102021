@@ -125,21 +125,31 @@ h6 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #f3f3f3;
   width: 60%;
   margin: 0 auto;
   padding: 0.5rem 0.5rem 0.5rem 0;
   border-radius: 2rem;
+  height: 2rem;
 }
 
 .btn-container .btn ul li {
   padding-left: 0;
+  margin-right: 2rem;
+  position: relative;
 }
 
-.btn-container .btn ul:first-child::before {
-  border: 1px solid #9356dc;
-  border-radius: 50%;
+.btn-container .btn ul li .number {
+  position: absolute;
+  top: -0.65rem;
+  min-width: 1rem;
+  border: solid 1px #9356dc;
+  border-radius: 100%;
+  background-color: #9356dc;
+  color: white;
 }
 
 .fa-heart::before {
