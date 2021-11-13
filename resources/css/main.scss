@@ -78,6 +78,10 @@
         padding-left: 0;
         // color: blue;
       }
+      &:first-child::before {
+        border: 1px solid $purple;
+        border-radius: 50%;
+      }
     }
   }
 }

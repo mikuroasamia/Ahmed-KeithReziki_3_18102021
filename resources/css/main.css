@@ -137,6 +137,11 @@ h6 {
   padding-left: 0;
 }
 
+.btn-container .btn ul:first-child::before {
+  border: 1px solid #9356dc;
+  border-radius: 50%;
+}
+
 .fa-heart::before {
   background: -webkit-linear-gradient(#e72c83, #a742c6);
   -webkit-background-clip: text;
