@@ -1,42 +1,6 @@
 // INDEX.HTML__MOBILE
 // MOBILE
 
-// Main__map
-.main__map-container {
-  background-color: $dark-grey;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem 0;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
-// Main__text
-.main__text-container {
-  background-color: $grey;
-  text-align: center;
-  padding: 2rem 0 3rem 0;
-  width: 100%;
-  h2,
-  p {
-    max-width: 75%;
-  }
-  h2 {
-    margin: 0 auto 1rem auto;
-  }
-  p {
-    margin: 0 auto 2rem auto;
-  }
-  .btn {
-    @include gradient;
-    padding: 1rem;
-    margin: 0 0 2rem 0;
-    border-radius: 2rem;
-    color: #fff;
-  }
-}
-
 .fa-heart::before {
   @include icon-gradient--fill;
   // font-size: 40px;
